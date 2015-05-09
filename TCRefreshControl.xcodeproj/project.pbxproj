@@ -7,10 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8300F6521AFD17C60014AA70 /* TCRefreshControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 8300F6511AFD17C60014AA70 /* TCRefreshControl.m */; };
+		8300F65B1AFD1BBD0014AA70 /* pull_refresh@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8300F6541AFD1BBD0014AA70 /* pull_refresh@2x.png */; };
+		8300F65C1AFD1BBD0014AA70 /* pull_refresh@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8300F6551AFD1BBD0014AA70 /* pull_refresh@3x.png */; };
+		8300F65D1AFD1BBD0014AA70 /* RefreshBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8300F6571AFD1BBD0014AA70 /* RefreshBottomView.m */; };
+		8300F65E1AFD1BBD0014AA70 /* RefreshTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8300F6591AFD1BBD0014AA70 /* RefreshTopView.m */; };
+		8300F6611AFDB6F40014AA70 /* UIScrollView+TCRefreshControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 8300F6601AFDB6F40014AA70 /* UIScrollView+TCRefreshControl.m */; };
+		8300F6641AFDBBAC0014AA70 /* SeondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8300F6631AFDBBAC0014AA70 /* SeondViewController.m */; };
 		836A0F061AFD118500E072B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 836A0F051AFD118500E072B5 /* main.m */; };
 		836A0F091AFD118500E072B5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 836A0F081AFD118500E072B5 /* AppDelegate.m */; };
 		836A0F0C1AFD118500E072B5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 836A0F0B1AFD118500E072B5 /* ViewController.m */; };
-		836A0F0F1AFD118500E072B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 836A0F0D1AFD118500E072B5 /* Main.storyboard */; };
 		836A0F111AFD118500E072B5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 836A0F101AFD118500E072B5 /* Images.xcassets */; };
 		836A0F141AFD118500E072B5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 836A0F121AFD118500E072B5 /* LaunchScreen.xib */; };
 		836A0F201AFD118600E072B5 /* TCRefreshControlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 836A0F1F1AFD118600E072B5 /* TCRefreshControlTests.m */; };
@@ -27,6 +33,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8300F6501AFD17C60014AA70 /* TCRefreshControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCRefreshControl.h; sourceTree = "<group>"; };
+		8300F6511AFD17C60014AA70 /* TCRefreshControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCRefreshControl.m; sourceTree = "<group>"; };
+		8300F6541AFD1BBD0014AA70 /* pull_refresh@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pull_refresh@2x.png"; sourceTree = "<group>"; };
+		8300F6551AFD1BBD0014AA70 /* pull_refresh@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pull_refresh@3x.png"; sourceTree = "<group>"; };
+		8300F6561AFD1BBD0014AA70 /* RefreshBottomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RefreshBottomView.h; sourceTree = "<group>"; };
+		8300F6571AFD1BBD0014AA70 /* RefreshBottomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RefreshBottomView.m; sourceTree = "<group>"; };
+		8300F6581AFD1BBD0014AA70 /* RefreshTopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RefreshTopView.h; sourceTree = "<group>"; };
+		8300F6591AFD1BBD0014AA70 /* RefreshTopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RefreshTopView.m; sourceTree = "<group>"; };
+		8300F65A1AFD1BBD0014AA70 /* RefreshViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RefreshViewDelegate.h; sourceTree = "<group>"; };
+		8300F65F1AFDB6F30014AA70 /* UIScrollView+TCRefreshControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+TCRefreshControl.h"; sourceTree = "<group>"; };
+		8300F6601AFDB6F40014AA70 /* UIScrollView+TCRefreshControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+TCRefreshControl.m"; sourceTree = "<group>"; };
+		8300F6621AFDBBAC0014AA70 /* SeondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SeondViewController.h; sourceTree = "<group>"; };
+		8300F6631AFDBBAC0014AA70 /* SeondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SeondViewController.m; sourceTree = "<group>"; };
 		836A0F001AFD118500E072B5 /* TCRefreshControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TCRefreshControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		836A0F041AFD118500E072B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		836A0F051AFD118500E072B5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -34,7 +53,6 @@
 		836A0F081AFD118500E072B5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		836A0F0A1AFD118500E072B5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		836A0F0B1AFD118500E072B5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		836A0F0E1AFD118500E072B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		836A0F101AFD118500E072B5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		836A0F131AFD118500E072B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		836A0F191AFD118600E072B5 /* TCRefreshControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TCRefreshControlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -60,6 +78,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8300F64F1AFD132C0014AA70 /* TCRefreshControl */ = {
+			isa = PBXGroup;
+			children = (
+				8300F6531AFD1BBD0014AA70 /* RefreshView */,
+				8300F6501AFD17C60014AA70 /* TCRefreshControl.h */,
+				8300F6511AFD17C60014AA70 /* TCRefreshControl.m */,
+				8300F65F1AFDB6F30014AA70 /* UIScrollView+TCRefreshControl.h */,
+				8300F6601AFDB6F40014AA70 /* UIScrollView+TCRefreshControl.m */,
+			);
+			path = TCRefreshControl;
+			sourceTree = "<group>";
+		};
+		8300F6531AFD1BBD0014AA70 /* RefreshView */ = {
+			isa = PBXGroup;
+			children = (
+				8300F6541AFD1BBD0014AA70 /* pull_refresh@2x.png */,
+				8300F6551AFD1BBD0014AA70 /* pull_refresh@3x.png */,
+				8300F6561AFD1BBD0014AA70 /* RefreshBottomView.h */,
+				8300F6571AFD1BBD0014AA70 /* RefreshBottomView.m */,
+				8300F6581AFD1BBD0014AA70 /* RefreshTopView.h */,
+				8300F6591AFD1BBD0014AA70 /* RefreshTopView.m */,
+				8300F65A1AFD1BBD0014AA70 /* RefreshViewDelegate.h */,
+			);
+			path = RefreshView;
+			sourceTree = "<group>";
+		};
 		836A0EF71AFD118500E072B5 = {
 			isa = PBXGroup;
 			children = (
@@ -81,11 +125,13 @@
 		836A0F021AFD118500E072B5 /* TCRefreshControl */ = {
 			isa = PBXGroup;
 			children = (
+				8300F64F1AFD132C0014AA70 /* TCRefreshControl */,
 				836A0F071AFD118500E072B5 /* AppDelegate.h */,
 				836A0F081AFD118500E072B5 /* AppDelegate.m */,
 				836A0F0A1AFD118500E072B5 /* ViewController.h */,
 				836A0F0B1AFD118500E072B5 /* ViewController.m */,
-				836A0F0D1AFD118500E072B5 /* Main.storyboard */,
+				8300F6621AFDBBAC0014AA70 /* SeondViewController.h */,
+				8300F6631AFDBBAC0014AA70 /* SeondViewController.m */,
 				836A0F101AFD118500E072B5 /* Images.xcassets */,
 				836A0F121AFD118500E072B5 /* LaunchScreen.xib */,
 				836A0F031AFD118500E072B5 /* Supporting Files */,
@@ -199,9 +245,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				836A0F0F1AFD118500E072B5 /* Main.storyboard in Resources */,
 				836A0F141AFD118500E072B5 /* LaunchScreen.xib in Resources */,
 				836A0F111AFD118500E072B5 /* Images.xcassets in Resources */,
+				8300F65C1AFD1BBD0014AA70 /* pull_refresh@3x.png in Resources */,
+				8300F65B1AFD1BBD0014AA70 /* pull_refresh@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,9 +266,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8300F6641AFDBBAC0014AA70 /* SeondViewController.m in Sources */,
+				8300F65E1AFD1BBD0014AA70 /* RefreshTopView.m in Sources */,
+				8300F6521AFD17C60014AA70 /* TCRefreshControl.m in Sources */,
+				8300F6611AFDB6F40014AA70 /* UIScrollView+TCRefreshControl.m in Sources */,
 				836A0F0C1AFD118500E072B5 /* ViewController.m in Sources */,
 				836A0F091AFD118500E072B5 /* AppDelegate.m in Sources */,
 				836A0F061AFD118500E072B5 /* main.m in Sources */,
+				8300F65D1AFD1BBD0014AA70 /* RefreshBottomView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,14 +296,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		836A0F0D1AFD118500E072B5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				836A0F0E1AFD118500E072B5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		836A0F121AFD118500E072B5 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -416,6 +460,7 @@
 				836A0F251AFD118600E072B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		836A0F261AFD118600E072B5 /* Build configuration list for PBXNativeTarget "TCRefreshControlTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +469,7 @@
 				836A0F281AFD118600E072B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
